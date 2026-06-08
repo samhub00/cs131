@@ -1,0 +1,4 @@
+hello world
+wazzup
+very interesting
+writing in linux
