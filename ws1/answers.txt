@@ -10,3 +10,5 @@ T9: ls BACKUP.???
 T10: cp data backup -r
 T11: mv backup/data/readme.txt backup/data/README.md
 T12: rm backup/data -ri
+T13: git add answers.txt git commit -m linux basics challenge git push origin main
+T14: git clone git@github.com:samhub00/cs131.git
