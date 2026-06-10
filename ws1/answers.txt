@@ -1,0 +1,12 @@
+T1: cd /home/ishigaki-cs22/cs131/ws1/ | ls
+T2: cd ../data | ls
+T3: file logs/app01.log | file .env
+T4: ls -alhr
+T5: ls logs -lS
+T6: 1.1M ishigaki-cs22 21:22 Jun 9
+T7: Data1.csv Data2.csv Data3.csv
+T8: ws1/logs/BACKUP.001 ws1/data/Data1.csv ws1/data/Data2.csv ws1/data/Data3.csv
+T9: ls BACKUP.???
+T10: cp data backup -r
+T11: mv backup/data/readme.txt backup/data/README.md
+T12: rm backup/data -ri
