@@ -7,3 +7,4 @@ Q4: git revert ee38a77
 Q5: 
 Q6: git checkout -b feature-summary
 Q7: touch summary.md, vim summary.md
+Q8: git diff feature-summary main
