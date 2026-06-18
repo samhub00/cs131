@@ -8,3 +8,10 @@ Q5:
 Q6: git checkout -b feature-summary
 Q7: touch summary.md, vim summary.md
 Q8: git diff feature-summary main
+Q9: git switch main, git merge feature-summary
+Q10: git branch -d feature-summary
+Q11: git merge conflict-branch, conflicts on summary.md
+Q12: git status
+Q13: done
+Q14: git add summary.md, git commit
+
