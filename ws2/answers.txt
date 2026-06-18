@@ -14,4 +14,4 @@ Q11: git merge conflict-branch, conflicts on summary.md
 Q12: git status
 Q13: done
 Q14: git add summary.md, git commit
-
+Q16: git fetch downloads remote history without modifying local files, git pull downloads and attempts to merge with current branch
