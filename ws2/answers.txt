@@ -1,0 +1,9 @@
+Q1: echo "task: practice git" >> notes.md
+git add notes.md
+git commit -m "ws2: add task line"
+Q2: git log --oneline -3
+Q3: ee38a77
+Q4: git revert ee38a77
+Q5: 
+Q6: git checkout -b feature-summary
+Q7: touch summary.md, vim summary.md
