@@ -1,0 +1,30 @@
+T1: 
+https://gist.github.com/zachbrowne/8bc414c9f30192067831fafebd14255c#file-the-ultimate-bad-ass-bashrc-file-L244
+extract()
+extract uses a loop that goes thorugh all the files in the directory, checks if they are an archve, and then uses the archive command to extract the files. esac signifies the end of the cases, and the else declares that the fiel is not a valid archive file
+
+https://gist.github.com/zachbrowne/8bc414c9f30192067831fafebd14255c#file-the-ultimate-bad-ass-bashrc-file-L322
+mkdirg()
+A simple but useful command that akes the directory and then goes to it
+
+https://gist.github.com/zachbrowne/8bc414c9f30192067831fafebd14255c#file-the-ultimate-bad-ass-bashrc-file-L302
+cpg() 
+Similar to mkdirg, this copies a directory and then goes to the directory.
+
+T2:
+https://github.com/samhub00/cs131/blob/6a97eab12713bc573b079573e45bf090f408c866/ws4/.bashrc#L90
+
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+these are helpful for displaying information inside of a directory as shorthand commands instead of typing out ls -alF or ls-A every time
+
+
+https://github.com/samhub00/cs131/blob/6a97eab12713bc573b079573e45bf090f408c866/ws4/.bashrc#L131
+up()
+this is very helpful and allows you to move up the designated amount of directories.  
+
+https://github.com/samhub00/cs131/blob/6a97eab12713bc573b079573e45bf090f408c866/ws4/.bashrc#L121
+alias sshtodgx="ssh ishigaki-cs22@100.107.21.115"
+This is super helpful to get into the vpn quickly. I actually put this same command inside my .zshc because that is where i access the dgx sercer from but i put it in here as a reference to something helpful for me.
