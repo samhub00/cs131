@@ -1,0 +1,11 @@
+{
+	total += $2
+	employees[$3]++
+	print NR
+}
+END {
+	print NR "employees in the company"
+	print "total, average = " total, total/NR
+	for (d in employees)
+		print d " has " employees[d] " employees"
+}	

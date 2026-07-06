@@ -1,0 +1,6 @@
+# sample data.txt
+John 5000 Engineering
+Alice 6000 HR
+Bob 4000 Sales
+Eve 7000 Engineering
+Charlie 5500 HR
