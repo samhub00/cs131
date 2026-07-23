@@ -1,0 +1,41 @@
+The coefficients correspond with m and b in the y=mx+b equation. RMSE being 0.99 means that on average the prediction of tip values is 1 dollar off. 
+
+
+Batch [732888b46e75488d94e92c9b2c2e3b30] submitted.
+WARNING: No runtime version specified. Using the default runtime version. It is recommended to select a specific major.minor runtime version in production, as the default runtime version may change at any time.
+Using the default container image
+Waiting for container log creation
+PYSPARK_PYTHON=/opt/dataproc/conda/bin/python
+Generating /home/spark/.pip/pip.conf
+Configuring index-url as 'https://us-python.pkg.dev/artifact-registry-python-cache/virtual-python/simple/'
+JAVA_HOME=/usr/lib/jvm/temurin-17-jdk-amd64
+SPARK_EXTRA_CLASSPATH=
+:: loading settings :: file = /etc/spark/conf/ivysettings.xml
+26/07/23 04:18:18 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-google-hadoop-file-system.properties,hadoop-metrics2.properties
+26/07/23 04:18:18 INFO MetricsSystemImpl: Scheduled Metric snapshot period at 10 second(s).
+26/07/23 04:18:18 INFO MetricsSystemImpl: google-hadoop-file-system metrics system started
+26/07/23 04:18:37 WARN Instrumentation: [5addf4d9] regParam is zero, which might cause numerical instability and overfitting.
+26/07/23 04:18:40 WARN InstanceBuilder: Failed to load implementation from:dev.ludovic.netlib.blas.VectorBLAS
+model performance
+coefficients: [0.09145843635504758,0.21070300388935664]
+Intercept:    0.6178364054767158
+RMSE:         0.9918
+R²:           0.4757
+Batch [732888b46e75488d94e92c9b2c2e3b30] finished.
+metadata:
+  '@type': type.googleapis.com/google.cloud.dataproc.v1.BatchOperationMetadata
+  batch: projects/peerless-column-499516-a0/locations/us-central1/batches/732888b46e75488d94e92c9b2c2e3b30
+  batchUuid: 6b67639d-5dc6-44db-8605-8ef14aaf5584
+  createTime: '2026-07-23T04:17:08.389241Z'
+  description: Batch
+  labels:
+    goog-dataproc-batch-id: 732888b46e75488d94e92c9b2c2e3b30
+    goog-dataproc-batch-uuid: 6b67639d-5dc6-44db-8605-8ef14aaf5584
+    goog-dataproc-drz-resource-uuid: batch-6b67639d-5dc6-44db-8605-8ef14aaf5584
+    goog-dataproc-location: us-central1
+  operationType: BATCH
+  warnings:
+  - No runtime version specified. Using the default runtime version. It is recommended
+    to select a specific major.minor runtime version in production, as the default
+    runtime version may change at any time.
+name: projects/peerless-column-499516-a0/regions/us-central1/operations/a86059ca-82f5-3b89-9e7a-9d09504517c6
